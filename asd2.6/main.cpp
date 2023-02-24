@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void maxx(int* arr, int n) {
-	int max = 0, max2 = 0, k = 0, l = 0, p = 0;
+	int max = 0, max2 = 0, l = 0, p = 0;
 	for (int i = 0;i < n;i++) {
 		if (arr[i] > max) {//if >= real max s povtoreniem
 			max2 = max;
